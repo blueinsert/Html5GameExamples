@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+	<title>Ping Pang</title>
+	<style>
+	  #playground{
+	    background: #e0ffe0 url(images/grid.jpeg);
+		width: 400px;
+		height: 200px;
+		position: relative;
+		overfllow: hidden;
+	  }
+	  #ball {
+	    background: #bbf;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 150px;
+		top: 100px;
+		border-radius: 10px;
+	  }
+	  .paddle {
+	    background: #bbf;
+		left: 50px;
+		top: 70px;
+		position: absolute;
+		width: 30px;
+		height: 70px;
+	  }
+	  #paddleB {
+	    left: 320px;
+	  }
+	</style>
+  </head>
+  <body>
+    <header>
+	  <h1>Ping Pang</h1>
+	</header>
+	  <div id="scoreboard">
+	    <div class="score">Player A:<spand id = "scoreA">0</span></div>
+		<div class="score">Player B:<spand id = "scoreB">0</span></div>
+	  </div>
+	  <div id="game">
+	    <div id="playground">
+		  <div id = "paddleA" class="paddle"></div>
+		  <div id = "paddleB" class="paddle"></div>
+		  <div id = "ball"></div>
+		</div>
+	  </div>
+	<footer>
+	  Ping Pang
+	</footer>
+	<script src="js/jquery-3.4.1.js"></script>
+	<script src="js/PingPang.js"></script>
+	<script>
+	  jQuery(document).ready(function(){
+	    alert("Welcome to the Ping Pang battle");
+	  });
+	</script>
+  </body>
+</html>
