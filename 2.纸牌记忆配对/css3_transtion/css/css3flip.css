@@ -6,7 +6,7 @@
 .card {
 	-webkit-perspective:600;
 	width:105px;
-	width:150px;
+	height:150px;
 }
 
 .face {
