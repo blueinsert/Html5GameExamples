@@ -1,0 +1,7 @@
+#game-scene {
+	background: #efefef;
+}
+
+#game-canvas, #game-background-canvas {
+	position: absolute;
+}
