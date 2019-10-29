@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CSS3 Matching Gameing</title>
+  <link rel="stylesheet" href="css/matchgame.css"/>
+</head>
+<body>
+  <header>
+  <h1>CSS3 Matching Gameing</h1>
+  </header>
+  <div id="timer">
+    Elapsed time: <span id="elapsed-time">00:00</span>
+  </div>
+  <section id="game">
+    <div id="cards">
+	  <div class="card">
+	    <div class="face front"></div>
+		<div class="face back"></div>
+	  </div>
+    </div>
+  </section>
+  <section id="popup" class="hide">
+    <div id="popup-bg"></div>
+	<div id="popup-box">
+	  <div class="ribbon hide">
+	    <div class="ribbon-body">
+		  <span>New Record</span>
+		</div>
+		<div class="triangle"></div>
+	  </div>
+	  <div id="popup-box-content">
+	    <h1> You Won!</h1>
+		<p> Your Score:</p>
+		<p><span class='score'>13</span></p>
+		<p>
+		  <small> Highest Score: <span class='highest-score'>20</span><br>
+		    saved on: <span class="saved-time">13/4/2011 3:14pm</span>
+		  </small>
+		</p>
+	  </div>
+	</div>
+  </section>
+  <footer>
+    <p> this is a example of creating a matching game with css3</p>
+  </footer>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/matchgame.js"> </script>
+</body>
+</html>
